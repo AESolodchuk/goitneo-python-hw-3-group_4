@@ -27,7 +27,7 @@ def input_error(func):
         try:
             return func(*args, **kwargs)
         except BirthdayFormat:
-            return "Please be sure that provided format is applicable format,\nformat for birthday adding: 'name' 'birthday'"
+            return "Please be sure that provided format is applicable,\nformat for birthday adding: 'name' 'birthday'"
         except PhoneWasNotFound:
             return "We cannot find this phone number, please try it again"
         except NewPhoneWasNotProvided:

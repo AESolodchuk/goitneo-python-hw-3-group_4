@@ -1,4 +1,4 @@
-from custom_errors import WrongDataFormat, PhoneWasNotFound
+from .custom_errors import WrongDataFormat, PhoneWasNotFound
 from collections import UserDict, defaultdict
 from datetime import datetime, timedelta
 import calendar
